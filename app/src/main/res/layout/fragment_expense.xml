@@ -29,7 +29,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:textAppearanceMedium"
-                    android:textColor="@android:color/black"
+                    android:textColor="#ffa36c"
                     android:text="Expense"/>
 
             </RelativeLayout>
@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/expense_txt_result"
                     android:textAppearance="?android:textAppearanceMedium"
-                    android:textColor="@android:color/black"
+                    android:textColor="#ffa36c"
                     android:text="00000.00"/>
 
             </RelativeLayout>

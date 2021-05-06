@@ -2,13 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/dashboard"
         android:title="Dashboard"
-        android:icon="@drawable/dashboard"/>
+        android:icon="@drawable/dashboard"
+        android:iconTint="@color/green2"/>
 
     <item android:id="@+id/income"
         android:title="Income"
-        android:icon="@drawable/income"/>
+        android:icon="@drawable/income"
+        android:iconTint="@color/green2"/>
 
     <item android:id="@+id/expense"
         android:title="expense"
-        android:icon="@drawable/expense"/>
+        android:icon="@drawable/expense"
+        android:iconTint="@color/green2"/>
 </menu>

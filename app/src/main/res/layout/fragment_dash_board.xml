@@ -11,11 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardElevation="5dp"
+        android:background="#f8f1f1"
         android:elevation="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#f8f1f1"
             android:orientation="vertical">
 
             <LinearLayout
@@ -27,15 +29,15 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:background="#f8f1f1"
                     android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="?android:textAppearanceLarge"
-                        android:textColor="@android:color/black"
                         android:text="Income"
-                        />
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@color/green2" />
 
                 </RelativeLayout>
 
@@ -43,13 +45,14 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:background="#f8f1f1"
                     android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceLarge"
-                        android:textColor="@android:color/holo_red_dark"
+                        android:textColor="#ffa36c"
                         android:text="Expense"
                         />
 
@@ -67,6 +70,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:background="#f8f1f1"
                     android:layout_height="wrap_content">
 
                     <TextView
@@ -74,7 +78,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/income_set_result"
                         android:textAppearance="?android:textAppearanceLarge"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/green2"
                         android:text="000.00"
                         />
 
@@ -84,13 +88,14 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:background="#f8f1f1"
                     android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceLarge"
-                        android:textColor="@android:color/holo_red_dark"
+                        android:textColor="#ffa36c"
                         android:id="@+id/expense_set_result"
                         android:text="000.000"
                         />
@@ -123,6 +128,7 @@
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="Income:"
+                    android:textColor="@color/green2"
                     android:textAppearance="?android:textAppearanceLarge" />
 
                 <androidx.recyclerview.widget.RecyclerView
@@ -136,6 +142,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Expense:"
+                    android:textColor="#ffa36c"
                     android:textAppearance="?android:textAppearanceLarge"
                     android:padding="10dp"
                     />
@@ -165,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
-                android:background="@android:color/holo_blue_dark"
+                android:background="#ffa36c"
                 android:padding="5dp"
                 android:text="Expense"
                 android:textAppearance="?android:textAppearanceSmall"
@@ -177,7 +184,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|end"
-                android:backgroundTint="#07bca4"
+                android:backgroundTint="#ffa36c"
                 android:elevation="6dp"
                 android:src="@drawable/expense"
                 android:visibility="invisible"
@@ -199,7 +206,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginRight="5dp"
-                android:background="@android:color/holo_blue_dark"
+                android:background="@color/green2"
                 android:padding="5dp"
                 android:text="Income"
                 android:textAppearance="?android:textAppearanceSmall"
@@ -211,7 +218,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|end"
-                android:backgroundTint="#1ce10a"
+                android:backgroundTint="@color/green2"
                 android:elevation="6dp"
                 android:src="@drawable/income"
                 android:visibility="invisible"
@@ -227,7 +234,7 @@
             android:layout_gravity="bottom|end"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="16dp"
-            android:backgroundTint="#6A1B9A"
+            android:backgroundTint="#d8ac9c"
             android:src="@drawable/income"
             app:fabSize="normal" />
 

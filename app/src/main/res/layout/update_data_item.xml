@@ -138,7 +138,7 @@
                         android:id="@+id/btnDelete"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="@android:color/white"
-                        android:background="@android:color/holo_red_light"/>
+                        android:backgroundTint="#d8ac9c"/>
 
                 </RelativeLayout>
 
@@ -156,7 +156,7 @@
                         android:id="@+id/btnUpdate"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textColor="@android:color/white"
-                        android:background="@android:color/holo_red_light"/>
+                        android:backgroundTint="#d8ac9c"/>
 
                 </RelativeLayout>
 

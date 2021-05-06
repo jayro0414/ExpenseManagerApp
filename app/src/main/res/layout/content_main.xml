@@ -13,6 +13,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        app:itemTextColor="@color/green2"
+        app:itemIconTint="@color/green2"
+        android:background="#f8f1f1"
         app:menu="@menu/bottommenu">
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
@@ -23,6 +26,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+        android:background="#f8ede3"
         android:layout_above="@+id/bottomNavigationbar">
 
     </FrameLayout>

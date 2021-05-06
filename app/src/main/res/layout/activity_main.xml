@@ -48,6 +48,7 @@
                 android:layout_margin="10dp"
                 android:text="Log In"
                 android:id="@+id/btn_login"
+                android:backgroundTint="@color/green2"
                 android:textAppearance="?android:textAppearanceMedium"
                 />
 
